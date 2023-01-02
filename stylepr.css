@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: lato,sans-serif;
+    background-image:url("hello.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.CONSTRUCTION{
+    font-size: 28px;
+    color:black;
+    font-weight: 800;
+    padding: 20px;
+    margin:5px;
+    float:left;
+}
+span{
+    color:rgb(95, 40, 11);
+}
+.header .menu{
+    float: right;
+    margin:5px;
+    padding: 20px;
+    
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    color:black;
+    letter-spacing: 1px;
+    padding: 20px;
+    margin: 5px;
+    font-weight:700 ;
+    font-size: 20px;
+}

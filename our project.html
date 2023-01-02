@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Learning CSS</title>
+
+<link href="https://fonts.googleapis.com/css?family=Dokdo" rel="stylesheet">
+<link href="stylepr.css" rel="stylesheet">
+
+<style type="text/css">
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: burlywood;
+    background-image: url("https://media.istockphoto.com/id/1130370595/photo/light-bulb-against-a-wooden-background.jpg?b=1&s=170667a&w=0&k=20&c=MjSmqgPCn428o1ubJEw8dBYTbOm1-S-W6W1K-rEXcco=");
+}
+
+.main{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,300px));
+    column-gap: 10px;
+    grid-template-rows: repeat(auto-fill,minmax(300px,300px));
+}
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+ 
+
+h1{
+ text-align: center;
+}
+p{
+ font-size: 24px;
+}
+
+header{
+
+font-family:Arial, Helvetica, sans-serif;
+font-size: 30px;
+padding: 20px;
+}
+
+.box{
+ width: 20%;
+ float: left;
+ padding: 7px;
+ padding-left: 10px;  
+ display: block;
+ overflow: hidden;
+ border-radius: 3px;
+
+}
+
+img{
+ width: 100%;
+    border-radius: 4px;
+
+}
+img:hover{
+  transform: scale(2,2);
+  transition: .3s transform;
+
+}
+
+</style>
+
+</head>
+<body>
+<header>
+ 
+ <h1>GALLERY<p> our project</p></h1>
+<hr/>
+
+</header>
+
+<main>
+    <div class="box">
+        <img src="">
+    </div>
+    <div class="box">
+        <img src="https://designthoughts.org/wp-content/uploads/2022/02/contemporary-elevation-design.jpg">
+    </div>
+    <div class="box">
+        <img src="https://i1.wp.com/emaargroup.co/wp-content/uploads/2016/02/10-1.jpg?resize=1185%2C1536&ssl=1">
+    </div>
+    <div class="box">
+        <img src="https://cdn.thomasnet.com/insights-images/6ebbead2-c2dc-4338-bb6f-705d8d57639c/750px.png">
+    </div>
+    <div class="box">
+        <img src="https://www.cdsmith.com/hubfs/Mercury-Marine-Technical-Center-Manufacturing-Testing-Building-Construction-Manager-Commercial-Project-General-Contractor-FEAT.jpg">
+    </div>
+    <div class="box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSaI7d5qQQirVh4ManAbNaQzKwJOzfJ9B-A&usqp=CAU">
+    </div>
+    <div class="box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1fk6XOaaVLeAYRgOaLnO8x0QHSYRt-v8hZg&usqp=CAU">
+    </div>
+    <div class="box">
+        <img src="https://i.pinimg.com/originals/62/fe/a0/62fea0ef29beb0ca7a7700190f242eeb.jpg">
+    </div>
+    <div class="box">
+        <img src="https://i.pinimg.com/originals/d4/36/ee/d436ee048bf2025e315fbcc8b21bb490.jpg">
+    </div>
+    <div class="box">
+        <img src="https://assets.architecturaldigest.in/photos/60083e76274aca243711c3a4/4:3/w_1024,h_768,c_limit/ghaziabad-uttar-pradesh-homes-photos-1366x768.jpg" >
+    </div>
+</main>
+
+
+
+</body>
+</html>
